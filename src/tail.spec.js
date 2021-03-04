@@ -6,4 +6,8 @@ describe('tail', () => {
         expect(tail([])).toEqual([]);
     });
 
+    it('Head of [1] is []', () => {
+        expect(tail([1])).toEqual([]);
+    });
+
 })
