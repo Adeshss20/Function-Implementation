@@ -10,4 +10,8 @@ describe('map', () => {
         expect(map([1,2,3],"identity")).toEqual([1,2,3]);
     });
 
+    it('map([],cube) is []', () => {
+        expect(map([],"cube")).toEqual([]);
+    });
+
 })
