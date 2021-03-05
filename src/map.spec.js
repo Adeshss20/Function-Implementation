@@ -14,4 +14,8 @@ describe('map', () => {
         expect(map([],"cube")).toEqual([]);
     });
 
+    it('map([1,3,5],cube) is [1,27,125]', () => {       
+        expect(map([1,3,5],"cube")).toEqual([1,27,125]);
+    });
+
 })
