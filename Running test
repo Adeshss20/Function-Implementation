@@ -1,2 +1,0 @@
-Run the ./go.sh this should install any dependencies and then run the test.
-You should see failing and passing test.
